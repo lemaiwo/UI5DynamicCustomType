@@ -14,7 +14,7 @@
 			</f:DynamicPageTitle>
 		</f:title>
 		<f:content>
-			<Input
+			<Input value="{path:'/value',type:'.be.wl.'}"/>
 		</f:content>
 	</f:DynamicPage>
 </mvc:View>
