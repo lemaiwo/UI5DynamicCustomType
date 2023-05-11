@@ -14,7 +14,10 @@
 			</f:DynamicPageTitle>
 		</f:title>
 		<f:content>
-			<Input value="{path:'/value',type:'.be.wl.'}"/>
+			<Input value="{path:'/value',type:'be.wl.myapp.utils.CustomType'}"/>
+			<HBox id="placeholder">
+
+			</HBox>
 		</f:content>
 	</f:DynamicPage>
 </mvc:View>
