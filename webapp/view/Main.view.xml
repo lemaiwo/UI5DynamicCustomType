@@ -1,0 +1,20 @@
+<mvc:View
+	controllerName="be.wl.myapp.controller.Main"
+	displayBlock="true"
+	xmlns="sap.m"
+	xmlns:f="sap.f"
+	xmlns:mvc="sap.ui.core.mvc">
+
+	<f:DynamicPage id="dynamicPageId" headerExpanded="{/headerExpanded}" toggleHeaderOnTitleClick="{/titleClickable}">
+		<f:title>
+			<f:DynamicPageTitle>
+				<f:heading>
+					<Title text="Header Title"/>
+				</f:heading>
+			</f:DynamicPageTitle>
+		</f:title>
+		<f:content>
+			<Input
+		</f:content>
+	</f:DynamicPage>
+</mvc:View>

@@ -1,0 +1,15 @@
+{
+  "generator-ui5-ts-app": {
+    "application": "myapp",
+    "namespace": "be.wl",
+    "framework": "OpenUI5",
+    "frameworkVersion": "1.113.0",
+    "author": "Wouter.LEMAIRE ext.ec.europa.eu",
+    "initrepo": true,
+    "tstypes": "@openui5/types",
+    "tstypesVersion": "1.113.0",
+    "appId": "be.wl.myapp",
+    "appURI": "be/wl/myapp",
+    "setupCompleted": true
+  }
+}
