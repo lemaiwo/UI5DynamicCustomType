@@ -14,7 +14,7 @@ export default class Main extends BaseController {
 	public onInit():void{
 		const customType = CustomType;
 		this.getView().setModel(new JSONModel({value:"hello"}));
-		const inp = new Input({value:"{path:'value',type:'be.wl.myapp.utils.CustomType'}"});
+		const inp = new Input({value:"{path:'/value',type:'be.wl.myapp.utils.CustomType'}"});
 		(this.byId("placeholder") as HBox).insertItem(inp,1)
 	}
 

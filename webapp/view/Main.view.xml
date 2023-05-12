@@ -14,8 +14,8 @@
 			</f:DynamicPageTitle>
 		</f:title>
 		<f:content>
-			<Input value="{path:'/value',type:'be.wl.myapp.utils.CustomType'}"/>
 			<HBox id="placeholder">
+			<Input value="{path:'/value',type:'be.wl.myapp.utils.CustomType'}"/>
 
 			</HBox>
 		</f:content>
